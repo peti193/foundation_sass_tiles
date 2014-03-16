@@ -1,3 +1,4 @@
+//Tiles
 .container {
 	padding:0;
 }
@@ -16,4 +17,20 @@ div.panel {
 }
 .top-bar {
 	margin-bottom: 1%;
+}
+//Placeholder
+#input-label {
+	padding: 20px;
+
+	.form_wrapper {
+		position: relative;
+
+		label {
+			position: absolute;
+			top: 0;
+			left: 0;
+			margin-left: 20px;
+			margin-top: 8px;
+		}
+	}
 }
