@@ -1,22 +1,55 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:100);
 /* Defalt variables */
-/* line 9, ../sass/app.scss */
-.main {
+/* Default settings */
+/* line 13, ../sass/app.scss */
+body, html {
+  height: 100%;
+}
+
+/* line 17, ../sass/app.scss */
+h1 {
+  margin: 0;
+}
+
+/* custom page style */
+/* line 23, ../sass/app.scss */
+body {
   background-color: #34aadc;
+  border-top: 335px solid black;
+}
+
+/* line 29, ../sass/app.scss */
+.main {
+  width: 90%;
+  margin: 0 auto;
   color: white;
   font-family: "HelveticaNeue-Light", Roboto;
 }
-/* line 14, ../sass/app.scss */
-.main .app {
-  text-align: center;
-}
-/* line 15, ../sass/app.scss */
-.main .app a {
+/* line 35, ../sass/app.scss */
+.main h1 {
+  font-size: 4em;
   font-weight: 100;
-  font-size: 22px;
+  font-family: "HelveticaNeue-Light", Roboto;
   color: white;
+  line-height: 1;
 }
-/* line 23, ../sass/app.scss */
-.main .app a:hover {
+/* line 44, ../sass/app.scss */
+.main h1:after {
+  content: "#";
   color: black;
+}
+/* line 51, ../sass/app.scss */
+.main .dark_veder {
+  background: black;
+}
+/* line 55, ../sass/app.scss */
+.main .description {
+  padding-top: 1em;
+}
+/* line 60, ../sass/app.scss */
+.main a.btn-white {
+  color: white;
+  border: 1px solid white;
+  font-weight: bold;
+  padding: 0.5em 1.5em;
 }
